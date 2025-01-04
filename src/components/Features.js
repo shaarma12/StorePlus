@@ -16,7 +16,7 @@ const Features = () => {
           and feasible features
         </p>
       </div>
-      <div className="mt-28 mb-32 flex flex-wrap gap-8 justify-center items-center">
+      <div className="mt-28 flex flex-wrap gap-8 justify-center items-center">
         {FEATURES_LIST.map((data) => (
           <FeatureCard key={data?.id} data={data} />
         ))}

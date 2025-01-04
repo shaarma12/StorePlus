@@ -44,6 +44,47 @@ export const FEATURES_LIST = [
     imgSrc: "https://storeplus.ai/assets/assets/images/Time_light.png",
   },
 ];
+export const PRICING_LIST = [
+  {
+    id: 1,
+    price: "15$",
+    trailExpiry: "After 14 days free trial",
+    infoPoints: [
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+    ],
+  },
+  {
+    id: 2,
+    price: "15$",
+    trailExpiry: "After 14 days free trial",
+    infoPoints: [
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+    ],
+  },
+  {
+    id: 3,
+    price: "15$",
+    trailExpiry: "After 14 days free trial",
+    infoPoints: [
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+      "Nisl viverra dignissim nisi lorem",
+    ],
+  },
+];
 export const FAQ_IMG =
   "https://storeplus.ai/assets/assets/images/FAQIllutration.png";
 export const POLY = "https://storeplus.ai/assets/assets/images/Polygon.png";

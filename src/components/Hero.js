@@ -10,9 +10,11 @@ const Hero = () => {
             <p className="mb-6">The first platform</p>
             <p>for wholesalers</p>
           </div>
-          <div className="my-10 text-2xl font-times">
-            <p>StorePlus is a first of its kind platform that</p>
-            <p>connects wholesalers and retailers</p>
+          <div className="my-10 text-2xl font-times w-[29rem] text-[#262626]">
+            <p className="break-words">
+              StorePlus is a first of its kind platform that connects
+              wholesalers and retailers
+            </p>
           </div>
           <button className="text-white bg-blue-500 text-xl font-semibold px-5 py-3 rounded-lg">
             Book in Advance
