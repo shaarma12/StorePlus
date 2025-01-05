@@ -1,5 +1,5 @@
 import React from "react";
-import { FAQ_IMG } from "../constant";
+import { FAQ_IMG, FAQ_LIST } from "../constant";
 import DropDown from "./DropDown";
 
 const Faq = () => {
@@ -8,11 +8,9 @@ const Faq = () => {
       <img src={FAQ_IMG} alt="faqImage" className="h-[46.5rem]" />
       <div>
         <p className="text-6xl font-bold text-[#252424] mb-[5.5rem]">FAQ</p>
-        <DropDown />
-        <DropDown />
-        <DropDown />
-        <DropDown />
-        <DropDown />
+        {FAQ_LIST.map((FAQInfo) => (
+          <DropDown key={FAQInfo?.id} dropDownInfo={FAQInfo} />
+        ))}
         <p className="text-2xl font-semibold text-blue-500 mt-12 cursor-pointer">
           View all questions
         </p>

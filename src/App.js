@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Pricing from "./components/Pricing";
 import Faq from "./components/Faq";
+import ContactUs from "./components/ContactUs";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Features />
       <Pricing />
       <Faq />
+      <ContactUs />
     </div>
   );
 };

@@ -1,43 +1,52 @@
 import React, { useState } from "react";
 
-const DropDown = () => {
+const DropDown = ({ dropDownInfo }) => {
+  const { name, info } = dropDownInfo;
   const [open, setOpen] = useState(false);
   return (
     <>
-      {open ? (
-        <div className="border-t-2 border-[#474646] border-b-2">
-          <div
-            className="flex justify-between items-center w-[36.5rem] mb-5 hover:bg-black hover:bg-opacity-5 cursor-pointer"
-            onClick={() => setOpen(!open)}
-          >
-            <p className="text-2xl text-[#474646] tracking-wider mt-2 mb-1">
-              Convallis nec riscus luctus ipsum?
-            </p>
+      <div
+        className={`${
+          open
+            ? "block border-t-[1px] border-[#474646] border-b-[1px] w-[36.5rem]"
+            : "hidden"
+        }`}
+      ></div>
+      <div
+        className="flex justify-between items-center w-[36.5rem] mb-5 hover:bg-black hover:bg-opacity-5 cursor-pointer"
+        onClick={() => setOpen(!open)}
+      >
+        <p className="text-2xl text-[#474646] tracking-wider mt-2 mb-1">
+          {name}
+        </p>
 
-            <img
-              src="https://img.icons8.com/?size=100&id=60653&format=png&color=4D4D4D"
-              className="w-5 h-5"
-            />
-          </div>
-          <p className="text-2xl text-[#474646] w-[36rem] ml-3 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.maecenas
-            emet sed eu adipiscing fusce dictum turpis
-          </p>
-        </div>
-      ) : (
-        <div
-          className="flex justify-between items-center w-[36.5rem] mb-5 hover:bg-black hover:bg-opacity-5 cursor-pointer"
-          onClick={() => setOpen(!open)}
+        <img
+          src="https://img.icons8.com/?size=100&id=60653&format=png&color=4D4D4D"
+          className="w-5 h-5"
+        />
+      </div>
+      <div
+        className={`overflow-hidden transition-all duration-500 ease-in-out ${
+          open ? "max-h-screen" : "max-h-0"
+        }`}
+      >
+        <p
+          className={`${
+            open
+              ? "block text-2xl text-[#474646] w-[36rem] ml-3 mb-4"
+              : "hidden"
+          }`}
         >
-          <p className="text-2xl text-[#474646] tracking-wider">
-            Convallis nec riscus luctus ipsum?
-          </p>
-          <img
-            src="https://img.icons8.com/?size=100&id=5434&format=png&color=4D4D4D"
-            className="w-5 h-5"
-          />
-        </div>
-      )}
+          {info}
+        </p>
+      </div>
+      <div
+        className={`${
+          open
+            ? "block border-t-[1px] border-[#474646] border-b-[1px] w-[36.5rem]"
+            : "hidden"
+        }`}
+      ></div>
     </>
   );
 };

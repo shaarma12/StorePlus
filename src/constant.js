@@ -85,6 +85,33 @@ export const PRICING_LIST = [
     ],
   },
 ];
+export const FAQ_LIST = [
+  {
+    id: 1,
+    name: "Convallis nec riscus luctus ipsum?",
+    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas emet sed eu adipiscing fusce dictum turpis",
+  },
+  {
+    id: 2,
+    name: "Convallis nec riscus luctus ipsum?",
+    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas emet sed eu adipiscing fusce dictum turpis",
+  },
+  {
+    id: 3,
+    name: "Convallis nec riscus luctus ipsum?",
+    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas emet sed eu adipiscing fusce dictum turpis",
+  },
+  {
+    id: 4,
+    name: "Convallis nec riscus luctus ipsum?",
+    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas emet sed eu adipiscing fusce dictum turpis",
+  },
+  {
+    id: 5,
+    name: "Convallis nec riscus luctus ipsum?",
+    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas emet sed eu adipiscing fusce dictum turpis",
+  },
+];
 export const FAQ_IMG =
   "https://storeplus.ai/assets/assets/images/FAQIllutration.png";
 export const POLY = "https://storeplus.ai/assets/assets/images/Polygon.png";
