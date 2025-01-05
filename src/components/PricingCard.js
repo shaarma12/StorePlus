@@ -16,9 +16,12 @@ const PricingCard = ({ data }) => {
       </div>
       <div className="flex flex-col my-5">
         {infoPoints.map((info) => (
-          <div className="flex justify-center items-center -ml-20 mb-3">
+          <div
+            key={info?.id}
+            className="flex justify-center items-center -ml-20 mb-3"
+          >
             <img src={POLY} alt="Polygon Pointer" className="mr-3" />
-            <p className="text-lg tracking-wide text-[#262626]">{info}</p>
+            <p className="text-lg tracking-wide text-[#262626]">{info?.desc}</p>
           </div>
         ))}
       </div>

@@ -50,12 +50,30 @@ export const PRICING_LIST = [
     price: "15$",
     trailExpiry: "After 14 days free trial",
     infoPoints: [
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
+      {
+        id: 1,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 2,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 3,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 4,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 5,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 6,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
     ],
   },
   {
@@ -63,12 +81,30 @@ export const PRICING_LIST = [
     price: "15$",
     trailExpiry: "After 14 days free trial",
     infoPoints: [
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
+      {
+        id: 1,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 2,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 3,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 4,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 5,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 6,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
     ],
   },
   {
@@ -76,12 +112,30 @@ export const PRICING_LIST = [
     price: "15$",
     trailExpiry: "After 14 days free trial",
     infoPoints: [
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
-      "Nisl viverra dignissim nisi lorem",
+      {
+        id: 1,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 2,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 3,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 4,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 5,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
+      {
+        id: 6,
+        desc: "Nisl viverra dignissim nisi lorem",
+      },
     ],
   },
 ];
