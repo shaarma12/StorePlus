@@ -4,7 +4,10 @@ import { PRICING_LIST } from "../constant";
 
 const Pricing = () => {
   return (
-    <div className="w-[84.5%] flex-col justify-center items-center mx-auto">
+    <div
+      id="pricing"
+      className="w-[84.5%] flex-col justify-center items-center mx-auto"
+    >
       <div className="flex justify-center items-center mt-32 mb-[5rem]">
         <p className="text-6xl font-bold text-[#252424]">Pricing</p>
       </div>

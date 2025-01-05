@@ -1,6 +1,6 @@
 import React from "react";
 import { LOGO_IMG } from "../constant";
-
+import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div className="w-full bg-black bg-opacity-[0.025] flex justify-center h-auto">
@@ -13,10 +13,18 @@ const Footer = () => {
         </div>
         <div className="mt-2">
           <div className="flex gap-24 justify-evenly text-xl font-semibold tracking-wide text-[#777676]">
-            <p className="cursor-pointer">Back to Top</p>
-            <p className="cursor-pointer">Home</p>
-            <p className="cursor-pointer">Features</p>
-            <p className="cursor-pointer">Pricing</p>
+            <Link to="navbar" smooth={true} duration={500}>
+              <p className="cursor-pointer">Back to Top</p>
+            </Link>
+            <Link to="home" smooth={true} duration={500}>
+              <p className="cursor-pointer">Home</p>
+            </Link>
+            <Link to="feature" smooth={true} duration={500}>
+              <p className="cursor-pointer">Features</p>
+            </Link>
+            <Link to="pricing" smooth={true} duration={500}>
+              <p className="cursor-pointer">Pricing</p>
+            </Link>
             <p className="cursor-pointer">Contact Us</p>
           </div>
           <div className="break-words text-[#7e7e7e] mt-[5.6rem] -ml-6">

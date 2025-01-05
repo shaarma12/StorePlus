@@ -3,7 +3,10 @@ import { HERO_IMG } from "../constant";
 
 const Hero = () => {
   return (
-    <div className="w-[93%] h-[65rem] bg-blue-200 flex justify-center items-center mx-auto rounded-2xl mb-2">
+    <div
+      id="home"
+      className="w-[93%] h-[65rem] bg-blue-200 flex justify-center items-center mx-auto rounded-2xl mb-2"
+    >
       <div className="flex justify-between items-center w-[90%]">
         <div>
           <div className="text-6xl font-semibold mt-8">

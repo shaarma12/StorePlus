@@ -4,7 +4,10 @@ import { FEATURES_LIST } from "../constant";
 
 const Features = () => {
   return (
-    <div className="w-[84.5%] flex-col justify-center items-center mx-auto">
+    <div
+      id="feature"
+      className="w-[84.5%] flex-col justify-center items-center mx-auto"
+    >
       <div className="flex flex-col justify-center items-center mt-[13.4rem]">
         <p className="text-blue-500 text-2xl font-semibold tracking-[0.35em] mb-2">
           FEATURES
