@@ -169,3 +169,7 @@ export const FAQ_LIST = [
 export const FAQ_IMG =
   "https://storeplus.ai/assets/assets/images/FAQIllutration.png";
 export const POLY = "https://storeplus.ai/assets/assets/images/Polygon.png";
+export const LOGO_NAME =
+  "https://storeplus.ai/assets/assets/images/logo_name_light.png";
+export const LOGIN_LOGO =
+  "https://storeplus.ai/assets/assets/images/logo_light.png";
