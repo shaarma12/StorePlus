@@ -1,6 +1,7 @@
 import React from "react";
 import { LOGO_IMG } from "../constant";
 import { Link } from "react-scroll";
+import { Link as Redirect } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="w-full bg-black bg-opacity-[0.025] flex justify-center h-auto">
@@ -25,7 +26,9 @@ const Footer = () => {
             <Link to="pricing" smooth={true} duration={500}>
               <p className="cursor-pointer">Pricing</p>
             </Link>
-            <p className="cursor-pointer">Contact Us</p>
+            <Redirect to="/query_screen">
+              <p className="cursor-pointer">Contact Us</p>
+            </Redirect>
           </div>
           <div className="break-words text-[#7e7e7e] mt-[5.6rem] -ml-6">
             <p className="w-48">

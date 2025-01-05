@@ -1,7 +1,7 @@
 import React from "react";
 import { LOGO_IMG } from "../constant";
 import { Link } from "react-scroll";
-import { Link as LoginPage } from "react-router-dom";
+import { Link as Redirect } from "react-router-dom";
 const Navbar = () => {
   return (
     <div
@@ -25,14 +25,16 @@ const Navbar = () => {
           <Link to="pricing" smooth={true} duration={500}>
             <p className="text-xl font-semibold cursor-pointer">Pricing</p>
           </Link>
-          <p className="text-xl font-semibold cursor-pointer">Contact Us</p>
+          <Redirect to="/query_screen">
+            <p className="text-xl font-semibold cursor-pointer">Contact Us</p>
+          </Redirect>
         </div>
-        <LoginPage
+        <Redirect
           to="/login_screen"
           className="bg-blue-500 text-white text-xl font-semibold px-5 py-3 rounded-lg"
         >
           Log in
-        </LoginPage>
+        </Redirect>
       </div>
     </div>
   );
