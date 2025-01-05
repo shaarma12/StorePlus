@@ -20,10 +20,19 @@ const DropDown = ({ dropDownInfo }) => {
           {name}
         </p>
 
-        <img
-          src="https://img.icons8.com/?size=100&id=60653&format=png&color=4D4D4D"
-          className="w-5 h-5"
-        />
+        {open ? (
+          <img
+            src="https://img.icons8.com/?size=100&id=60653&format=png&color=4D4D4D"
+            alt="DropDown"
+            className="w-5 h-5"
+          />
+        ) : (
+          <img
+            src="https://img.icons8.com/?size=100&id=2760&format=png&color=4D4D4D"
+            alt="DropDown"
+            className="w-5 h-5"
+          />
+        )}
       </div>
       <div
         className={`overflow-hidden transition-all duration-500 ease-in-out ${
