@@ -8,12 +8,12 @@ const DropDown = ({ dropDownInfo }) => {
       <div
         className={`${
           open
-            ? "block border-t-[1px] border-[#474646] border-b-[1px] w-[36.5rem]"
+            ? "block border-t-[1px] border-[#474646] border-b-[1px] xl:w-[36.5rem] lg:w-[30rem]"
             : "hidden"
         }`}
       ></div>
       <div
-        className="flex justify-between items-center w-[36.5rem] mb-5 hover:bg-black hover:bg-opacity-5 cursor-pointer"
+        className="flex justify-between items-center xl:w-[36.5rem] lg:w-[30rem] mb-5 hover:bg-black hover:bg-opacity-5 cursor-pointer"
         onClick={() => setOpen(!open)}
       >
         <p className="text-2xl text-[#474646] tracking-wider mt-2 mb-1">
@@ -42,7 +42,7 @@ const DropDown = ({ dropDownInfo }) => {
         <p
           className={`${
             open
-              ? "block text-2xl text-[#474646] w-[36rem] ml-3 mb-4"
+              ? "block text-2xl text-[#474646] xl:w-[36rem] lg:w-[30rem] ml-3 mb-4"
               : "hidden"
           }`}
         >
@@ -52,7 +52,7 @@ const DropDown = ({ dropDownInfo }) => {
       <div
         className={`${
           open
-            ? "block border-t-[1px] border-[#474646] border-b-[1px] w-[36.5rem]"
+            ? "block border-t-[1px] border-[#474646] border-b-[1px] xl:w-[36.5rem] lg:w-[30rem]"
             : "hidden"
         }`}
       ></div>

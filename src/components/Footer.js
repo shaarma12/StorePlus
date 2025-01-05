@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { Link as Redirect } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="w-full bg-black bg-opacity-[0.025] flex justify-center h-auto">
+    <div className="xl:w-full lg:w-[78rem] bg-black bg-opacity-[0.025] flex justify-center h-auto">
       <div className="flex justify-between w-[84%] py-[5.6rem]">
         <div className="flex w-[14.5rem] justify-between">
           <img className="h-9 mt-1" src={LOGO_IMG} alt="logo" />
@@ -13,7 +13,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="mt-2">
-          <div className="flex gap-24 justify-evenly text-xl font-semibold tracking-wide text-[#777676]">
+          <div className="flex xl:gap-24 lg:gap-16 justify-evenly text-xl font-semibold tracking-wide text-[#777676]">
             <Link to="navbar" smooth={true} duration={500}>
               <p className="cursor-pointer">Back to Top</p>
             </Link>
@@ -30,7 +30,7 @@ const Footer = () => {
               <p className="cursor-pointer">Contact Us</p>
             </Redirect>
           </div>
-          <div className="break-words text-[#7e7e7e] mt-[5.6rem] -ml-6">
+          <div className="break-words text-[#7e7e7e] mt-[5.6rem] -ml-6 xl:text-base lg:text-lg">
             <p className="w-48">
               &#169; All Rights Reserved By Almach Labs Pvt. Ltd.
             </p>

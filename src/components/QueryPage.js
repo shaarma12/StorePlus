@@ -50,10 +50,16 @@ const QueryPage = () => {
           </p>
         </div>
       </div>
-      <div className="w-[93%] flex gap-[8.5rem] items-center mx-auto mb-36">
-        <img src={FAQ_IMG} alt="faqImage" className="w-[38.5rem] h-[54rem]" />
+      <div className="w-[93%] flex xl:gap-[8.5rem] lg:gap-[5rem] items-center mx-auto mb-36">
+        <img
+          src={FAQ_IMG}
+          alt="faqImage"
+          className="xl:w-[38.5rem] lg:w-[28rem] h-[54rem]"
+        />
         <div className="mt-3">
-          <p className="text-6xl font-semibold pb-9">Have a Query?</p>
+          <p className="xl:text-6xl lg:text-5xl font-semibold xl:pb-9 lg:pb-6">
+            Have a Query?
+          </p>
           <p className="text-xl font-semibold text-[#868585]">
             Fill out your details and we will contact you
           </p>
@@ -64,7 +70,7 @@ const QueryPage = () => {
               name="name"
               value={formData.name}
               onChange={handleInputChange}
-              className="bg-[#f0f0f0] py-3 w-[38.8rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
+              className="bg-[#f0f0f0] xl:py-3 lg:py-4 xl:w-[38.8rem] lg:w-[25rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
             />
             <p className="text-[#252424] text-xl">Business Name</p>
             <input
@@ -72,7 +78,7 @@ const QueryPage = () => {
               name="businessName"
               value={formData.businessName}
               onChange={handleInputChange}
-              className="bg-[#f0f0f0] py-3 w-[38.8rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
+              className="bg-[#f0f0f0] xl:py-3 lg:py-4 xl:w-[38.8rem] lg:w-[25rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
             />
             {errors.businessName && (
               <p className="text-red-700 text-xs ml-3 -mt-6 mb-3">
@@ -85,7 +91,7 @@ const QueryPage = () => {
               name="businessAddress"
               value={formData.businessAddress}
               onChange={handleInputChange}
-              className="bg-[#f0f0f0] py-3 w-[38.8rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
+              className="bg-[#f0f0f0] xl:py-3 lg:py-4 xl:w-[38.8rem] lg:w-[25rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
             />
             {errors.businessAddress && (
               <p className="text-red-700 text-xs ml-3 -mt-6 mb-3">
@@ -98,7 +104,7 @@ const QueryPage = () => {
               name="email"
               value={formData.email}
               onChange={handleInputChange}
-              className="bg-[#f0f0f0] py-3 w-[38.8rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
+              className="bg-[#f0f0f0] xl:py-3 lg:py-4 xl:w-[38.8rem] lg:w-[25rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
             />
             {errors.email && (
               <p className="text-red-700 text-xs ml-3 -mt-6 mb-3">
@@ -111,7 +117,7 @@ const QueryPage = () => {
               name="phoneNumber"
               value={formData.phoneNumber}
               onChange={handleInputChange}
-              className="bg-[#f0f0f0] py-3 w-[38.8rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
+              className="bg-[#f0f0f0] xl:py-3 lg:py-4 xl:w-[38.8rem] lg:w-[25rem] px-3 border-none outline-none text-lg text-[#252424] mt-3 mb-8 rounded-lg"
             />
             {errors.phoneNumber && (
               <p className="text-red-700 text-xs ml-3 -mt-6">
@@ -121,7 +127,7 @@ const QueryPage = () => {
 
             <button
               type="submit"
-              className="bg-blue-500 w-[38.8rem] py-3 text-white text-xl font-semibold rounded-lg mt-6"
+              className="bg-blue-500 xl:py-3 lg:py-3 xl:w-[38.8rem] lg:w-[25rem] text-white text-xl font-semibold rounded-lg mt-6"
             >
               Submit
             </button>

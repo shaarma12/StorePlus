@@ -5,11 +5,11 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="w-[93%] h-[65rem] bg-blue-200 flex justify-center items-center mx-auto rounded-2xl mb-2"
+      className="xl:w-[93%] lg:w-[116%] xl:ml-14 lg:ml-8 xl:h-[65rem] lg:h-[48rem] bg-blue-200 flex justify-center items-center xl:mx-auto lg:mx-8 rounded-2xl mb-2"
     >
-      <div className="flex justify-between items-center w-[90%]">
+      <div className="flex justify-between items-center xl:w-[90%] lg:w-[85%]">
         <div>
-          <div className="text-6xl font-semibold mt-8">
+          <div className="text-6xl font-semibold mt-8 xl:w-[35rem] lg:w-[30rem]">
             <p className="mb-6">The first platform</p>
             <p>for wholesalers</p>
           </div>
@@ -23,7 +23,11 @@ const Hero = () => {
             Book in Advance
           </button>
         </div>
-        <img src={HERO_IMG} alt="Hero Image" className="w-[50rem] -mr-24" />
+        <img
+          src={HERO_IMG}
+          alt="Hero Image"
+          className="xl:w-[50rem] lg:w-[40rem] -mr-24"
+        />
       </div>
     </div>
   );

@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="w-[93%] flex justify-center items-center mx-auto my-28 h-auto bg-[#cee4ff] py-[5.8rem] rounded-2xl">
+    <div className="xl:w-[93%] lg:w-[115%] flex justify-center items-center xl:mx-auto lg:mx-9 my-28 h-auto bg-[#cee4ff] xl:py-[5.8rem] lg:py-[5rem] rounded-2xl">
       <div className="flex justify-between items-center w-[92%]">
-        <div className="w-[28rem] text-5xl font-semibold text-[#252424]">
+        <div className="w-[28rem] xl:text-5xl lg:text-4xl font-semibold text-[#252424]">
           <p className="mb-4">Contact us for more</p>
           <p>information</p>
         </div>
